@@ -7,7 +7,7 @@ int main() {
     cin>>n;
     vector<string>arr(n);
     for(int i=0;i<n;i++){
-        cin>>arr[i];
+        cin>>arr[i]
     }
     set<string>transformations;
     for(auto &it:arr){
